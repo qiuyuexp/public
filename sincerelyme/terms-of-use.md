@@ -21,7 +21,7 @@ You agree not to misuse the Service, including:
 - You are responsible for ensuring you have rights to content you upload.
 
 ## 4. Privacy
-Your use of the Service is also governed by our Privacy Policy: [PRIVACY POLICY URL]
+Your use of the Service is also governed by our Privacy Policy: https://github.com/qiuyuexp/public/blob/main/sincerelyme/privacy-policy.md
 
 ## 5. Third-Party Services
 The Service may rely on third-party providers (for example, authentication and hosting). Their terms and policies may apply to relevant features.
