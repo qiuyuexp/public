@@ -1,67 +1,126 @@
 # Terms of Use
 
-Last updated: March 29, 2026
+Last updated: April 5, 2026
 
-These Terms of Use ("Terms") govern your use of Vellumark (the "Service"). By downloading, accessing, or using the Service, you agree to these Terms.
+These Terms of Use govern your use of Vellumark, including the iOS application, optional cloud extraction services, optional iCloud Sync features, and related support and subscription features. By downloading, accessing, or using Vellumark, you agree to these Terms.
 
-## 1. Eligibility and Accounts
-- You must be legally allowed to use the Service in your jurisdiction.
-- You are responsible for your device, account access, and activity associated with your use of the Service.
-- You are responsible for maintaining access to any Apple account features needed for subscriptions or optional iCloud Sync.
+## 1. Eligibility
 
-## 2. The Service
-Vellumark helps you capture book pages, extract text and annotations, organize them into searchable notes, and optionally sync mirrored backups through iCloud.
+You may use Vellumark only if you are legally permitted to do so in your jurisdiction and are able to enter into a binding agreement.
 
-We may change, improve, suspend, or discontinue parts of the Service at any time.
+You are responsible for:
 
-## 3. Subscriptions and Billing
-- Some features require a paid subscription.
-- Billing is handled by Apple through your App Store account.
-- Subscription prices, billing periods, trials, and renewal terms shown in the app or App Store listing are part of your purchase terms.
-- Unless canceled at least 24 hours before the end of the current period, subscriptions may renew automatically under Apple's subscription rules.
-- You can manage or cancel your subscription in your Apple account settings.
-- Refunds are handled by Apple according to Apple's policies.
+- Your device and access to the app.
+- Any Apple account features needed for subscriptions or optional iCloud Sync.
+- Activity that occurs through your use of Vellumark.
 
-## 4. Your Content
-- You retain ownership of the content you create and store in Vellumark.
-- You grant us a limited license to host, process, transmit, and display your content only as needed to operate, secure, and improve the Service.
-- You represent that you have the rights needed to upload and process the content you submit.
+## 2. The service
 
-## 5. Acceptable Use
+Vellumark helps you capture book pages, extract text and annotations into Markdown, organize your notes, and optionally sync mirrored copies through iCloud.
+
+Vellumark is local-first, but some features rely on third-party services, including Apple services and cloud-based AI processing.
+
+We may change, improve, suspend, or discontinue any part of the service at any time.
+
+## 3. AI extraction and user responsibility
+
+Vellumark offers AI-assisted extraction of printed text, highlights, and handwritten marginalia. By using that feature, you authorize Vellumark to transmit the submitted page image and related request data to our backend and applicable AI and infrastructure providers for processing.
+
+AI-generated output can be incomplete, inaccurate, misformatted, or misleading. You are responsible for reviewing and deciding how to use, edit, export, or share the output.
+
+You should not rely on Vellumark for legal, medical, financial, academic integrity, safety-critical, or other high-risk decisions without independent review.
+
+## 4. Your content
+
+You retain ownership of the content you create, scan, upload, or store in Vellumark.
+
+You grant us a limited, non-exclusive license to host, process, transmit, reproduce, and display your content only as needed to:
+
+- Operate the service.
+- Secure the service.
+- Provide extraction, sync, export, backup, and support features.
+- Enforce these Terms.
+
+You represent that you have the rights needed to submit and process the content you use with Vellumark, including any book pages, notes, or other material.
+
+## 5. Acceptable use
+
 You agree not to:
-- violate any law or third-party rights;
-- upload harmful, abusive, infringing, or fraudulent content;
-- interfere with the Service or attempt unauthorized access;
-- reverse engineer, scrape, or abuse the Service beyond what applicable law permits; or
-- use the Service in a way that harms Vellumark, its providers, or other users.
 
-## 6. Privacy
-Your use of the Service is also governed by the Privacy Policy:
+- Violate any law or third-party rights.
+- Upload or process content you do not have the right to use.
+- Abuse, overload, scrape, reverse engineer, probe, or interfere with the service beyond what applicable law permits.
+- Attempt to bypass security, rate limits, integrity checks, or subscription controls.
+- Use the service to submit harmful, fraudulent, infringing, or otherwise unlawful content.
 
-https://github.com/qiuyuexp/public/blob/main/vellumark/privacy-policy.md
+## 6. Subscriptions and billing
 
-## 7. Third-Party Services
-Vellumark depends on third-party services, including Apple services for billing and optional iCloud Sync, as well as hosting, OCR, and AI processing providers. Their terms and policies may apply to relevant parts of the Service.
+Some features require a paid subscription.
 
-## 8. No Guarantee of Availability
-The Service is provided on an "as is" and "as available" basis to the fullest extent permitted by law. We do not guarantee that the Service will always be available, error-free, or uninterrupted.
+- Billing is handled by Apple through your App Store account.
+- Subscription prices, trial terms, billing periods, renewal terms, and cancellation mechanics shown in the app or App Store listing are part of your purchase terms.
+- Unless canceled at least 24 hours before the end of the current billing period, subscriptions may renew automatically under Apple's rules.
+- You can manage or cancel subscriptions through Apple account settings.
+- Refunds are handled by Apple under Apple's policies.
 
-## 9. Limitation of Liability
-To the maximum extent permitted by law, we are not liable for indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of data, profits, goodwill, or business arising from or related to your use of the Service.
+## 7. Third-party services
+
+Vellumark depends on third-party services, including:
+
+- Apple services for billing and optional iCloud Sync.
+- Google services for backend hosting, security operations, and AI extraction.
+- Other vendors reasonably needed for hosting, storage, support, or security.
+
+Those services may be governed by their own terms and privacy policies, and we are not responsible for third-party services we do not control.
+
+## 8. Privacy
+
+Your use of Vellumark is also governed by the Privacy Policy:
+
+https://qiuyuexp.github.io/public/vellumark/privacy-policy.html
+
+## 9. Availability and changes
+
+The service is provided on an "as is" and "as available" basis to the fullest extent permitted by law. We do not guarantee that the service will always be available, uninterrupted, secure, or error-free.
+
+Features, models, extraction behavior, limits, and supported integrations may change over time.
 
 ## 10. Termination
-We may suspend or terminate access to the Service if you violate these Terms, if required by law, or if necessary to protect the Service, users, or third parties. You may stop using the Service at any time.
 
-## 11. Apple EULA
+We may suspend or terminate access to some or all of the service if:
+
+- You violate these Terms.
+- We are required to do so by law.
+- It is reasonably necessary to protect the service, users, or third parties.
+
+You may stop using Vellumark at any time.
+
+## 11. Disclaimer of warranties
+
+To the fullest extent permitted by law, Vellumark and all related services are provided without warranties of any kind, whether express, implied, or statutory, including implied warranties of merchantability, fitness for a particular purpose, non-infringement, and accuracy.
+
+We do not warrant that extracted text, page numbers, note associations, or AI-generated output will be correct or suitable for your intended use.
+
+## 12. Limitation of liability
+
+To the fullest extent permitted by law, we will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for any loss of data, profits, goodwill, business opportunity, or other intangible losses arising from or related to your use of Vellumark.
+
+If applicable law does not allow certain limitations, those limitations apply only to the maximum extent permitted.
+
+## 13. Apple EULA
+
 If no separate custom end user license agreement applies, your use of the iOS app is also subject to Apple's Licensed Application End User License Agreement:
 
 https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
-## 12. Governing Law
+## 14. Governing law
+
 These Terms are governed by the laws of Singapore, excluding its conflict of laws rules, unless applicable law requires otherwise.
 
-## 13. Changes to These Terms
-We may update these Terms from time to time. Continued use of the Service after updated Terms take effect means you accept the revised Terms.
+## 15. Changes to these Terms
 
-## 14. Contact
-Legal and support contact: qiuyuexp@gmail.com
+We may update these Terms from time to time. Continued use of Vellumark after updated Terms take effect means you accept the revised Terms.
+
+## 16. Contact
+
+Legal and support contact: `qiuyuexp@gmail.com`

@@ -9,7 +9,7 @@
     * { box-sizing: border-box; }
     body { margin: 0; background: linear-gradient(180deg, #f8f5ef 0%, #f3eee4 100%); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.65; }
     main { max-width: 820px; margin: 32px auto; padding: 28px; background: var(--card); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 10px 30px rgba(57, 37, 14, 0.08); }
-    h1,h2 { line-height: 1.25; }
+    h1,h2,h3 { line-height: 1.25; }
     h1 { margin-top: 0; }
     p.meta { color: var(--muted); margin-top: -8px; }
     a { color: var(--link); }
@@ -19,60 +19,101 @@
 <body>
   <main>
     <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: March 29, 2026</p>
+    <p class="meta">Last updated: April 5, 2026</p>
 
-    <p>Vellumark ("we", "our", "us") is a reading and annotation app that helps you capture pages from physical books, extract text and notes, and organize them into searchable Markdown. This Privacy Policy explains what data we collect, how we use it, and the choices available to you.</p>
+    <p>Vellumark is a local-first iOS app for capturing book pages, extracting highlights and marginalia into Markdown, and organizing that material for later review and export. This Privacy Policy explains what data Vellumark collects, how it is used, when it leaves your device, and the choices available to you.</p>
 
-    <h2>1. Data We Collect</h2>
+    <h2>1. Who operates Vellumark</h2>
+    <p>Vellumark is operated by the developer reachable at <a href="mailto:qiuyuexp@gmail.com">qiuyuexp@gmail.com</a>.</p>
+
+    <h2>2. Data we collect</h2>
+    <p>We may collect or process the following categories of data:</p>
     <ul>
-      <li>App content: book titles, author names, page images you scan, extracted text, notes, highlights, Markdown content, and related metadata.</li>
-      <li>Subscription data: subscription status and purchase-related information provided through Apple.</li>
-      <li>Sync and backup data: if you enable iCloud Sync, mirrored copies of book metadata, page images, and Markdown files stored in your iCloud account.</li>
-      <li>Device and diagnostic data: limited technical logs and network metadata needed to operate the service, prevent abuse, diagnose failures, and improve reliability.</li>
-      <li>Security data: device integrity and anti-abuse signals used to protect the extraction service.</li>
+      <li>Library content you create in the app, such as book titles, author names, page images, extracted text, notes, highlights, Markdown, page numbers, and related metadata.</li>
+      <li>Extraction submission data when you use cloud recognition, including the page image you submit, prompt version, extraction settings, and the extraction output returned to the app.</li>
+      <li>Subscription and entitlement data provided through Apple, such as subscription status, product identifiers, renewal state, and purchase restoration information.</li>
+      <li>Optional sync and backup data if you enable iCloud Sync, including mirrored copies of supported library content stored in your iCloud account.</li>
+      <li>Security and abuse-prevention data needed to protect the cloud extraction service, including App Attest device identifiers, attestation and assertion records, one-time challenges, sign counters, rate-limit records, IP address information, and related technical metadata.</li>
+      <li>Diagnostic and service data, such as operational logs, request status, error details, coarse usage metrics, and similar information needed to keep the service reliable and secure.</li>
     </ul>
 
-    <h2>2. How We Use Data</h2>
+    <h2>3. How we use data</h2>
+    <p>We use data to:</p>
     <ul>
-      <li>Provide core app features, including page capture, OCR and AI-assisted extraction, organization, search, and export.</li>
-      <li>Sync and restore your library when you enable optional iCloud backup and sync.</li>
-      <li>Verify subscriptions, restore purchases, and manage plan limits.</li>
-      <li>Maintain service security, investigate errors, and prevent misuse of the service.</li>
+      <li>Provide the app's core features, including page capture, extraction, editing, organization, search, export, sync, and backup.</li>
+      <li>Process page images through our backend and AI providers when you choose to run extraction.</li>
+      <li>Verify device integrity, enforce rate limits, prevent abuse, and protect the service.</li>
+      <li>Verify subscriptions, enforce free and paid usage limits, and restore purchases.</li>
+      <li>Troubleshoot failures, improve reliability, monitor abuse, and maintain security.</li>
+      <li>Comply with legal obligations and enforce our Terms of Use.</li>
     </ul>
 
-    <h2>3. Where Your Data Is Processed</h2>
+    <h2>4. When your data leaves your device</h2>
+    <p>Vellumark is local-first, but some features require off-device processing:</p>
     <ul>
-      <li>On your device: Vellumark is local-first. Your library data is stored locally on your device by default.</li>
-      <li>Vellumark backend: when you choose to process a page, the scanned image is sent to our backend for OCR and AI extraction.</li>
-      <li>Apple services: subscriptions are handled by Apple. If you enable iCloud Sync, synced backups are stored in your iCloud account.</li>
-      <li>Service providers: we may use cloud infrastructure, OCR, and AI processing providers to operate Vellumark.</li>
+      <li><strong>Cloud extraction:</strong> when you tap Extract Text, the scanned page image and related request metadata are sent to Vellumark's backend, which then submits the image and instructions to Google Gemini for AI-based extraction.</li>
+      <li><strong>Optional iCloud Sync:</strong> if enabled, Vellumark mirrors supported library content to your iCloud account.</li>
+      <li><strong>Apple commerce flows:</strong> subscription, billing, and restore flows are handled through Apple.</li>
     </ul>
-    <p>These providers process data under their own terms and privacy policies.</p>
+    <p>If you do not use cloud extraction, your page content remains on-device except for any sync or backup features you explicitly enable.</p>
 
-    <h2>4. Optional iCloud Sync</h2>
-    <p>iCloud Sync is optional and off by default. If enabled, Vellumark mirrors your library content to your iCloud Drive container to support sync and recovery across devices. Turning iCloud Sync off stops future syncing but does not automatically remove data already stored in your iCloud account unless you explicitly remove the cloud copy from within the app.</p>
+    <h2>5. AI and service provider disclosure</h2>
+    <p>Vellumark uses third-party providers to operate the service. These providers may process your data under their own terms and privacy policies.</p>
 
-    <h2>5. Data Sharing</h2>
-    <p>We do not sell your personal data. We share data only as reasonably necessary to provide the service through hosting, storage, OCR, AI, and Apple platform services, to comply with law or lawful requests, or to protect the rights, safety, and integrity of Vellumark, our users, and the public.</p>
+    <h3>Google Gemini and Google Cloud</h3>
+    <p>When you use cloud extraction, Vellumark sends the submitted page image and extraction instructions to Google services used to operate the feature, including Google Gemini for AI processing and Google Cloud infrastructure for backend hosting and security operations.</p>
+    <p>We do not design the feature to permanently store your page images or extraction output in our own backend database after the request completes, but the data is processed transiently to fulfill the request and may appear in limited operational or security logs where necessary.</p>
+    <p>Google may also process prompts, uploaded files, outputs, logging data, and related service metadata according to the service tier and terms that apply to the Google AI services used to run Vellumark. This can include limited retention for safety, abuse prevention, debugging, legal compliance, and service operations. You should avoid submitting content that contains highly sensitive personal information unless you are comfortable with that off-device processing.</p>
 
-    <h2>6. Data Retention</h2>
-    <p>We retain data for as long as needed to provide Vellumark and for legitimate business, legal, and security purposes.</p>
-    <p>If you delete content in the app, some deleted items may remain temporarily recoverable in a Recently Deleted state before permanent removal. If iCloud Sync is enabled, mirrored copies may persist in your iCloud account until they are removed or synced for deletion.</p>
+    <h3>Apple</h3>
+    <p>Apple processes subscription, billing, purchase restoration, and any optional iCloud Sync activity through Apple services and your Apple account.</p>
 
-    <h2>7. Security</h2>
-    <p>We use reasonable technical and organizational safeguards designed to protect your information. No method of storage, transmission, or processing is completely secure.</p>
+    <h3>Other infrastructure and support providers</h3>
+    <p>We may also use hosting, storage, diagnostics, email, or other vendors reasonably necessary to run, secure, and support Vellumark.</p>
 
-    <h2>8. Your Choices and Rights</h2>
-    <p>You can keep using Vellumark without enabling iCloud Sync, manage or cancel subscriptions through Apple, delete books and pages in the app, and contact us to request access, correction, or deletion, subject to applicable law.</p>
-    <p>To make a privacy request, contact: <a href="mailto:qiuyuexp@gmail.com">qiuyuexp@gmail.com</a></p>
+    <h2>6. Data sharing</h2>
+    <p>We do not sell your personal data. We share data only as reasonably necessary to:</p>
+    <ul>
+      <li>Provide the services you request.</li>
+      <li>Operate the app through Apple, Google, hosting, storage, or AI service providers.</li>
+      <li>Prevent fraud, abuse, and security incidents.</li>
+      <li>Comply with law, regulation, legal process, or enforceable governmental requests.</li>
+      <li>Protect the rights, safety, and integrity of Vellumark, our users, and the public.</li>
+    </ul>
 
-    <h2>9. Children</h2>
-    <p>Vellumark is not directed to children under the minimum age required by applicable law in their region.</p>
+    <h2>7. Retention</h2>
+    <p>Retention depends on the kind of data involved:</p>
+    <ul>
+      <li><strong>On-device library data:</strong> retained until you delete it, remove the app, or reset device storage.</li>
+      <li><strong>Recently Deleted content:</strong> may remain recoverable for a limited period inside the app before permanent removal.</li>
+      <li><strong>iCloud mirrored data:</strong> retained in your iCloud account until removed by you or synced for deletion.</li>
+      <li><strong>Backend extraction content:</strong> we do not intend to keep page images or extracted Markdown in our own backend database after request completion, except for transient processing, temporary caching, or incidental diagnostic records.</li>
+      <li><strong>Security and abuse-prevention records:</strong> App Attest records, challenge records, rate-limit records, sign counters, IP-based abuse controls, and similar technical records may be retained for as long as reasonably necessary to secure the service, investigate misuse, and meet legal requirements.</li>
+      <li><strong>Provider-side records:</strong> Apple, Google, and other providers may keep logs or records according to their own retention schedules and terms.</li>
+    </ul>
 
-    <h2>10. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. If we make material changes, we will update the "Last updated" date on this page.</p>
+    <h2>8. International processing</h2>
+    <p>Your data may be processed in countries other than the one where you live, including countries where our service providers operate infrastructure or support functions. Those countries may have data protection rules that differ from those in your jurisdiction.</p>
 
-    <h2>11. Contact</h2>
+    <h2>9. Your choices and rights</h2>
+    <p>Depending on your location, you may have rights to request access, correction, deletion, or information about the personal data we process about you.</p>
+    <p>You can also:</p>
+    <ul>
+      <li>Use Vellumark without enabling iCloud Sync.</li>
+      <li>Choose whether to submit pages for cloud extraction.</li>
+      <li>Delete books, scans, and notes in the app.</li>
+      <li>Remove mirrored iCloud data using in-app controls where available.</li>
+      <li>Manage or cancel subscriptions through Apple.</li>
+    </ul>
+    <p>To make a privacy request, contact <a href="mailto:qiuyuexp@gmail.com">qiuyuexp@gmail.com</a>.</p>
+
+    <h2>10. Children</h2>
+    <p>Vellumark is not directed to children under the minimum age required by applicable law in their region, and it should not be used by anyone who cannot validly agree to these terms and disclosures.</p>
+
+    <h2>11. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. If we make material changes, we will update the date above and may provide additional notice where appropriate.</p>
+
+    <h2>12. Contact</h2>
     <p>Privacy and support contact: <a href="mailto:qiuyuexp@gmail.com">qiuyuexp@gmail.com</a></p>
   </main>
 </body>

@@ -1,6 +1,6 @@
 # Vellumark Legal
 
-Last updated: March 29, 2026
+Last updated: April 5, 2026
 
 This page links to the public legal documents for Vellumark.
 
