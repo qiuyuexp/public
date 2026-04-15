@@ -5,74 +5,115 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SincerelyMe Privacy Policy</title>
   <style>
-    :root { --fg: #1f2937; --muted: #6b7280; --bg: #fafaf9; --card: #ffffff; }
+    :root { --fg: #1f2937; --muted: #6b7280; --bg: #f8f5ef; --card: #fffdf8; --link: #7c4f19; --border: #eadfce; }
     * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.65; }
-    main { max-width: 820px; margin: 32px auto; padding: 24px; background: var(--card); border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,.06); }
-    h1,h2 { line-height: 1.25; }
+    body { margin: 0; background: linear-gradient(180deg, #f8f5ef 0%, #f3eee4 100%); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.65; }
+    main { max-width: 820px; margin: 32px auto; padding: 28px; background: var(--card); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 10px 30px rgba(57, 37, 14, 0.08); }
+    h1,h2,h3 { line-height: 1.25; }
     h1 { margin-top: 0; }
     p.meta { color: var(--muted); margin-top: -8px; }
-    a { color: #0f766e; }
+    a { color: var(--link); }
+    ul { padding-left: 20px; }
   </style>
 </head>
 <body>
   <main>
     <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: February 28, 2026</p>
+    <p class="meta">Last updated: April 15, 2026</p>
 
-    <p>SincerelyMe ("we", "our", "us") provides a journaling and messaging experience. This Privacy Policy explains what data we collect, how we use it, and your choices.</p>
+    <p>SincerelyMe is an iOS app for capturing voice reflections and life episodes, generating episodic digests, and delivering future-self letters and related intelligence features. This Privacy Policy explains what data SincerelyMe collects, how it is used, when it may leave your device, and the choices available to you.</p>
 
-    <h2>1. Data We Collect</h2>
+    <h2>1. Who operates SincerelyMe</h2>
+    <p>SincerelyMe is operated by the developer reachable at <a href="mailto:qiuyuexp@gmail.com">qiuyuexp@gmail.com</a>.</p>
+
+    <h2>2. Data we collect</h2>
+    <p>We may collect or process the following categories of data:</p>
     <ul>
-      <li>Account data: identifiers from Sign in with Apple and/or Google Sign-In (such as user ID, email, display name when available).</li>
-      <li>App content: recordings, letters/messages, and related metadata you create in the app.</li>
-      <li>Device/app data: basic technical logs needed for security, diagnostics, and service reliability.</li>
-      <li>Permissions data: microphone access (for recording), notifications (if you enable them).</li>
+      <li>Account data, including identifiers and profile information received through Sign in with Apple, Google Sign-In, Supabase authentication, and similar account services.</li>
+      <li>Content you create in the app, such as audio recordings, transcripts, reflections, letters, episodic entries, digests, prompts, tags, timestamps, and related metadata.</li>
+      <li>Intelligence processing data when you use SincerelyMe's AI-powered features, including submitted audio or text, derived transcripts, prompt context, model outputs, and request metadata needed to generate letters, digests, and related insights.</li>
+      <li>Subscription and entitlement data provided through Apple, such as subscription status, product identifiers, renewal state, and purchase restoration information.</li>
+      <li>Diagnostic, security, and service data, such as operational logs, request status, device or session metadata, coarse usage information, and error details needed to keep the service reliable and secure.</li>
     </ul>
 
-    <h2>2. How We Use Data</h2>
+    <h2>3. How we use data</h2>
+    <p>We use data to:</p>
     <ul>
       <li>Authenticate users and maintain account sessions.</li>
-      <li>Store and sync your content across sessions/devices.</li>
-      <li>Provide app features (recording, inbox, settings, notifications).</li>
-      <li>Protect security, prevent abuse, and troubleshoot issues.</li>
+      <li>Store, sync, and retrieve your reflections, recordings, letters, and related content.</li>
+      <li>Process your content through our backend and AI providers when you choose to use intelligence features.</li>
+      <li>Verify subscriptions, enforce free and paid usage limits, and restore purchases.</li>
+      <li>Troubleshoot failures, improve reliability, monitor abuse, and maintain security.</li>
+      <li>Comply with legal obligations and enforce our Terms of Use.</li>
     </ul>
 
-    <h2>3. Services We Use</h2>
+    <h2>4. When your data leaves your device</h2>
+    <p>SincerelyMe includes local app experiences, but some features require off-device processing:</p>
     <ul>
-      <li>Supabase (authentication, database, storage, and related backend services).</li>
-      <li>Apple Sign-In and Google Sign-In for authentication.</li>
+      <li><strong>Backend intelligence and sync:</strong> when you create or process content that relies on SincerelyMe's backend, your submitted recordings, transcripts, text, metadata, and related outputs may be sent to our backend and supporting providers.</li>
+      <li><strong>AI generation:</strong> when you use features that generate letters, digests, or similar intelligence outputs, relevant content and request context may be processed by third-party AI and infrastructure providers that help operate the feature.</li>
+      <li><strong>Apple commerce flows:</strong> subscription, billing, and restore flows are handled through Apple.</li>
     </ul>
-    <p>These providers process data according to their own privacy terms.</p>
+    <p>If you do not use cloud-backed intelligence features, less of your content leaves your device, but account, purchase, and service operations may still involve Apple, Supabase, and other providers that operate the service.</p>
 
-    <h2>4. Permissions</h2>
+    <h2>5. AI and service provider disclosure</h2>
+    <p>SincerelyMe uses third-party providers to operate the service. These providers may process data under their own terms and privacy policies.</p>
+
+    <h3>Supabase</h3>
+    <p>SincerelyMe uses Supabase for authentication and for backend services such as database, storage, and session management.</p>
+
+    <h3>Google AI and cloud services</h3>
+    <p>SincerelyMe may use Google services, including Gemini and related cloud infrastructure, to process content for transcription, digest generation, letter generation, and other intelligence features.</p>
+    <p>When you use those features, submitted content, prompts, outputs, and related technical metadata may be processed off-device to fulfill your request. We may also retain limited operational and security logs as reasonably necessary to run, secure, and debug the service.</p>
+
+    <h3>Apple</h3>
+    <p>Apple processes subscription, billing, purchase restoration, and platform account flows through Apple services and your Apple account.</p>
+
+    <h3>Other infrastructure and support providers</h3>
+    <p>We may also use hosting, storage, diagnostics, messaging, or support vendors reasonably necessary to run, secure, and support SincerelyMe.</p>
+
+    <h2>6. Data sharing</h2>
+    <p>We do not sell your personal data. We share data only as reasonably necessary to:</p>
     <ul>
-      <li>Microphone: used only when you choose to record.</li>
-      <li>Notifications: used only if you grant permission.</li>
+      <li>Provide the services you request.</li>
+      <li>Operate the app through Apple, Supabase, Google, hosting, storage, or AI service providers.</li>
+      <li>Prevent fraud, abuse, and security incidents.</li>
+      <li>Comply with law, regulation, legal process, or enforceable governmental requests.</li>
+      <li>Protect the rights, safety, and integrity of SincerelyMe, our users, and the public.</li>
     </ul>
-    <p>You can change permissions anytime in iOS Settings.</p>
 
-    <h2>5. Data Retention</h2>
-    <p>We retain data as needed to provide the service and for legitimate business/legal reasons. If you request account deletion, we will delete or de-identify your data as required by applicable law.</p>
+    <h2>7. Retention</h2>
+    <p>Retention depends on the kind of data involved:</p>
+    <ul>
+      <li><strong>Account and app content:</strong> retained until you delete it, delete your account, or it is otherwise removed in the ordinary operation of the service.</li>
+      <li><strong>Generated outputs and related records:</strong> may be retained as part of your app content and account history unless deleted by you or removed as part of account deletion or service operations.</li>
+      <li><strong>Subscription and entitlement records:</strong> may be retained as reasonably necessary to verify purchases, restore access, resolve disputes, and comply with legal or accounting obligations.</li>
+      <li><strong>Diagnostic and security records:</strong> may be retained for as long as reasonably necessary to secure the service, investigate misuse, and meet legal requirements.</li>
+      <li><strong>Provider-side records:</strong> Apple, Supabase, Google, and other providers may keep logs or records according to their own retention schedules and terms.</li>
+    </ul>
 
-    <h2>6. Data Sharing</h2>
-    <p>We do not sell your personal data. We may share data with service providers strictly to operate the app, comply with law, or protect users and platform integrity.</p>
+    <h2>8. International processing</h2>
+    <p>Your data may be processed in countries other than the one where you live, including countries where our service providers operate infrastructure or support functions. Those countries may have data protection rules that differ from those in your jurisdiction.</p>
 
-    <h2>7. Security</h2>
-    <p>We use reasonable technical and organizational safeguards to protect your data. No system is 100% secure.</p>
+    <h2>9. Your choices and rights</h2>
+    <p>Depending on your location, you may have rights to request access, correction, deletion, or information about the personal data we process about you.</p>
+    <p>You can also:</p>
+    <ul>
+      <li>Choose whether to use intelligence features that require off-device processing.</li>
+      <li>Delete reflections, recordings, letters, and related content in the app where those controls are available.</li>
+      <li>Manage or cancel subscriptions through Apple.</li>
+      <li>Request account deletion or other privacy support by contacting us.</li>
+    </ul>
+    <p>To make a privacy request, contact <a href="mailto:qiuyuexp@gmail.com">qiuyuexp@gmail.com</a>.</p>
 
-    <h2>8. Your Choices and Rights</h2>
-    <p>Depending on your location, you may have rights to access, correct, delete, or export your personal data.</p>
-    <p>To make a request, contact: <a href="mailto:qiuyuexp@gmail.com">qiuyuexp@gmail.com</a></p>
+    <h2>10. Children</h2>
+    <p>SincerelyMe is not directed to children under the minimum age required by applicable law in their region, and it should not be used by anyone who cannot validly agree to these terms and disclosures.</p>
 
-    <h2>9. Children</h2>
-    <p>SincerelyMe is not intended for children under the minimum age required by applicable law in your region.</p>
+    <h2>11. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. If we make material changes, we will update the date above and may provide additional notice where appropriate.</p>
 
-    <h2>10. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy. We will post updates here and revise the "Last updated" date.</p>
-
-    <h2>11. Contact</h2>
-    <p>Privacy contact: <a href="mailto:qiuyuexp@gmail.com">qiuyuexp@gmail.com</a><br/>Support: <a href="mailto:qiuyuexp@gmail.com">qiuyuexp@gmail.com</a></p>
+    <h2>12. Contact</h2>
+    <p>Privacy and support contact: <a href="mailto:qiuyuexp@gmail.com">qiuyuexp@gmail.com</a></p>
   </main>
 </body>
 </html>
